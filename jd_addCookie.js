@@ -22,7 +22,7 @@ if (process.env.ADD_COOKIE_NOTIFY) {
 }
 
 //用户更新CK是否通知管理员 量子环境变量：UPDATE_COOKIE_NOTIFY:true
-let UPDATE_COOKIE_NOTIFY = false
+let UPDATE_COOKIE_NOTIFY = true
 if (process.env.UPDATE_COOKIE_NOTIFY) {
     UPDATE_COOKIE_NOTIFY = process.env.UPDATE_COOKIE_NOTIFY == "true"
 }
